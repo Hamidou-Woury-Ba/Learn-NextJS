@@ -3,3 +3,6 @@ Mon Parcours d'Apprentissage de NextJS. Ce dépôt contient quelques exercices d
 
 # Créer notre projet NextJS
     npx create-next-app@13.4
+
+# Routage
+    Sur NextJS le routage est basé sur le système de fichier
