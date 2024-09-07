@@ -65,3 +65,6 @@ Next.js supporte également la génération statique incrémentale (Incremental 
 
 ---
 
+# DaisyUI
+  Le plus populaire Bibliothèque de composants pour Tailwind CSS
+
