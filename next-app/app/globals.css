@@ -2,17 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Définitions des propriétés personnalisées de premier plan */
+/* 
+  comment ajouter des variables CSS personnalisées pour les couleurs de premier plan et d'arrière-plan
+  en fonction du thème de couleur préféré de l'utilisateur.
+*/
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
 }
 
+/*  Il s'agit d'une nouvelle règle CSS qui utilise les variables CSS personnalisées 
+  Si le thème de couleur préféré de l'utilisateur est sombre, 
+  les couleurs de premier plan et d'arrière-plan sont inversées.
+*/
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
   }
 }
 
